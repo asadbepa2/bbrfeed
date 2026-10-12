@@ -1,0 +1,9 @@
+# Force HTTPS and a single canonical host (Netlify)
+http://bbrfeed.online/*      https://bbrfeed.online/:splat  301!
+http://www.bbrfeed.online/*  https://bbrfeed.online/:splat  301!
+https://www.bbrfeed.online/* https://bbrfeed.online/:splat  301!
+
+# Friendly aliases for the pages you asked about
+/portfolio   /work/     301
+/proof       /work/     301
+/book        https://cal.com/mdaslam      302
